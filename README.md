@@ -1,5 +1,11 @@
 # PDF to CSV Conversion Tool
 
+## Usage
+
+1. Install the requirements: `pip install ...`
+2. Place the PDF files you want to convert into the PDF_Box directory.
+3. Run the script (main.py) to process the PDFs and save them as CSV files:
+
 ## Overview
 
 This Python script converts PDF files into CSV format. It extracts text from PDF files using the `pdfplumber` library, formats the text, and then saves it into CSV files. The script processes all PDF files in a specified input directory and saves the resulting CSV files to a specified output directory.
@@ -15,11 +21,6 @@ This Python script converts PDF files into CSV format. It extracts text from PDF
 - Python 3.x
 - `pdfplumber` - for extracting text from PDFs
 - `pandas` - for creating and saving CSV files
-
-## Usage
-
-- Place the PDF files you want to convert into the PDF_Box directory.
-- Run the script (main.py) to process the PDFs and save them as CSV files:
 
 ## License
 
